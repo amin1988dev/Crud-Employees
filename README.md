@@ -30,4 +30,25 @@ Progetto di gestione CRUD (Create, Read, Update, Delete) per i dipendenti, reali
         $db = 'crud_employees';
         $user = 'tuo-utente';
         $pass = 'tua-password';
+    
+Accedi a http://localhost:8000 nel browser.
 
+## Struttura del Database
+
+```sql
+CREATE DATABASE IF NOT EXISTS crud_employees;
+USE crud_employees;
+
+CREATE TABLE `employees` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(255) NOT NULL,
+  `surname` VARCHAR(255) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,
+  `phone` VARCHAR(50) DEFAULT NULL,
+  `birthdate` DATE DEFAULT NULL,
+  `address` VARCHAR(255) DEFAULT NULL,
+  `salary` DECIMAL(10, 2) DEFAULT NULL,
+  `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
