@@ -1,0 +1,32 @@
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+.table {
+    margin-top: 20px;
+    background-color: white;
+}
+
+.btn-danger {
+    background-color: #ff4b5c;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+}
+.btn-group .btn {
+    margin-right: 5px;
+}
+
+.form-inline input[type="text"] {
+    width: 70%;
+    margin-right: 10px;
+}
+
+.form-inline button {
+    width: 25%;
+}
+
