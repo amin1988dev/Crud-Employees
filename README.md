@@ -1,6 +1,6 @@
 # Crud-Employees
 
-Progetto di gestione CRUD (Create, Read, Update, Delete) per i dipendenti, realizzato in **PHP senza framework**.
+Progetto di gestione CRUD (Create, Read, Update, Delete) per i dipendenti, realizzato in **PHP**.
 
 ## Screenshot
 ![Schermata del risultato finale](assets/screenshots/home_senza_dipendenti.png)
